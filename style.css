@@ -1,0 +1,51 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+#quiz {
+  margin-top: 50px;
+}
+
+#question {
+  margin-bottom: 20px;
+}
+
+.option {
+  display: inline-block;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.option input {
+  display: none;
+}
+
+.option span {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px 10px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+.option input:checked + span {
+  background-color: #ddd;
+}
+
+.answer {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.correct {
+  color: green;
+}
+
+.wrong {
+  color: red;
+}
